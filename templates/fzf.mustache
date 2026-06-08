@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# {{name}} ({{variant}})
+# https://github.com/danfry1/theme-template
+
+export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
+  --color=bg:{{backgrounds.base}},bg+:{{backgrounds.surface0}},fg:{{foregrounds.subtext}},fg+:{{foregrounds.text}} \
+  --color=hl:{{accents.keyword}},hl+:{{accents.operator}},info:{{accents.func}},marker:{{accents.string}} \
+  --color=prompt:{{accents.keyword}},spinner:{{accents.tag}},pointer:{{accents.operator}},header:{{accents.func}} \
+  --color=border:{{backgrounds.surface1}},label:{{foregrounds.overlay}},query:{{foregrounds.text}}"

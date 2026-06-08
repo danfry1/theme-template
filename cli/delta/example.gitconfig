@@ -1,0 +1,23 @@
+# Example (dark)
+# Add to your .gitconfig: [include] path = /path/to/example.gitconfig
+
+[delta "example"]
+    dark = true
+    syntax-theme = none
+    file-style = "#d8d0e4" bold
+    file-decoration-style = "#262236" ul
+    hunk-header-style = "#8a8498"
+    hunk-header-decoration-style = "#262236" ul
+    minus-style = syntax "#1e1a2c"
+    minus-emph-style = syntax bold "#262236"
+    plus-style = syntax "#1e1a2c"
+    plus-emph-style = syntax bold "#262236"
+    minus-non-emph-style = syntax "#12101e"
+    plus-non-emph-style = syntax "#12101e"
+    line-numbers = true
+    line-numbers-minus-style = "#c49080"
+    line-numbers-plus-style = "#a0d4a8"
+    line-numbers-zero-style = "#8a8498"
+    line-numbers-left-style = "#262236"
+    line-numbers-right-style = "#262236"
+    blame-palette = "#12101e #1e1a2c #0e0c18 #262236"

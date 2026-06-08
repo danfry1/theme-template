@@ -1,0 +1,67 @@
+# {{name}} ({{variant}})
+# https://github.com/danfry1/theme-template
+
+[colors]
+foreground = "{{foregrounds.text}}"
+background = "{{backgrounds.base}}"
+cursor_bg = "{{special.cursor}}"
+cursor_fg = "{{backgrounds.base}}"
+cursor_border = "{{special.cursor}}"
+selection_fg = "{{foregrounds.text}}"
+selection_bg = "{{special.selection}}"
+scrollbar_thumb = "{{backgrounds.surface2}}"
+split = "{{backgrounds.surface1}}"
+compose_cursor = "{{accents.number}}"
+ansi = [
+  "{{ansi.black}}",
+  "{{ansi.red}}",
+  "{{ansi.green}}",
+  "{{ansi.yellow}}",
+  "{{ansi.blue}}",
+  "{{ansi.magenta}}",
+  "{{ansi.cyan}}",
+  "{{ansi.white}}",
+]
+brights = [
+  "{{ansi.brightBlack}}",
+  "{{ansi.brightRed}}",
+  "{{ansi.brightGreen}}",
+  "{{ansi.brightYellow}}",
+  "{{ansi.brightBlue}}",
+  "{{ansi.brightMagenta}}",
+  "{{ansi.brightCyan}}",
+  "{{ansi.brightWhite}}",
+]
+
+[colors.tab_bar]
+background = "{{backgrounds.shadow}}"
+
+[colors.tab_bar.active_tab]
+bg_color = "{{backgrounds.base}}"
+fg_color = "{{foregrounds.text}}"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.inactive_tab]
+bg_color = "{{backgrounds.dim}}"
+fg_color = "{{foregrounds.overlay}}"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "{{backgrounds.surface0}}"
+fg_color = "{{foregrounds.subtext}}"
+italic = true
+
+[colors.tab_bar.new_tab]
+bg_color = "{{backgrounds.shadow}}"
+fg_color = "{{foregrounds.overlay}}"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "{{backgrounds.surface0}}"
+fg_color = "{{foregrounds.text}}"
+italic = true
+
+[metadata]
+name = "{{name}}"
+origin_url = "https://github.com/danfry1/theme-template"

@@ -1,0 +1,5 @@
+node_modules/
+.superpowers/
+docs/
+.DS_Store
+*.vsix

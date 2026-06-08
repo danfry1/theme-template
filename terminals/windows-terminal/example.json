@@ -1,0 +1,23 @@
+{
+  "name": "Example",
+  "background": "#12101e",
+  "foreground": "#d8d0e4",
+  "cursorColor": "#d0a0b8",
+  "selectionBackground": "#262236",
+  "black": "#56526c",
+  "red": "#c49080",
+  "green": "#a0d4a8",
+  "yellow": "#c4b080",
+  "blue": "#8cc0e0",
+  "purple": "#b8a0e0",
+  "cyan": "#88c0b8",
+  "white": "#b0a8c4",
+  "brightBlack": "#68647e",
+  "brightRed": "#d0a0b8",
+  "brightGreen": "#a8d4b8",
+  "brightYellow": "#e8b4a0",
+  "brightBlue": "#a0c8e0",
+  "brightPurple": "#c4b0e0",
+  "brightCyan": "#a0d4cc",
+  "brightWhite": "#d8d0e4"
+}
