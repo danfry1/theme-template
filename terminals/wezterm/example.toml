@@ -1,0 +1,67 @@
+# Example (dark)
+# https://github.com/danfry1/theme-template
+
+[colors]
+foreground = "#d8d0e4"
+background = "#12101e"
+cursor_bg = "#d0a0b8"
+cursor_fg = "#12101e"
+cursor_border = "#d0a0b8"
+selection_fg = "#d8d0e4"
+selection_bg = "#262236"
+scrollbar_thumb = "#302c42"
+split = "#262236"
+compose_cursor = "#c4b080"
+ansi = [
+  "#56526c",
+  "#c49080",
+  "#a0d4a8",
+  "#c4b080",
+  "#8cc0e0",
+  "#b8a0e0",
+  "#88c0b8",
+  "#b0a8c4",
+]
+brights = [
+  "#68647e",
+  "#d0a0b8",
+  "#a8d4b8",
+  "#e8b4a0",
+  "#a0c8e0",
+  "#c4b0e0",
+  "#a0d4cc",
+  "#d8d0e4",
+]
+
+[colors.tab_bar]
+background = "#0a0814"
+
+[colors.tab_bar.active_tab]
+bg_color = "#12101e"
+fg_color = "#d8d0e4"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#0e0c18"
+fg_color = "#8a8498"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#1e1a2c"
+fg_color = "#b0a8c4"
+italic = true
+
+[colors.tab_bar.new_tab]
+bg_color = "#0a0814"
+fg_color = "#8a8498"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#1e1a2c"
+fg_color = "#d8d0e4"
+italic = true
+
+[metadata]
+name = "Example"
+origin_url = "https://github.com/danfry1/theme-template"

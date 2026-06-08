@@ -1,0 +1,29 @@
+# Example (dark)
+# https://github.com/danfry1/theme-template
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#b8a0e0"
+      - bold
+    inactiveBorderColor:
+      - "#262236"
+    searchingActiveBorderColor:
+      - "#c4b080"
+      - bold
+    optionsTextColor:
+      - "#8cc0e0"
+    selectedLineBgColor:
+      - "#1e1a2c"
+    cherryPickedCommitFgColor:
+      - "#8cc0e0"
+    cherryPickedCommitBgColor:
+      - "#b8a0e0"
+    markedBaseCommitFgColor:
+      - "#8cc0e0"
+    markedBaseCommitBgColor:
+      - "#c4b080"
+    unstagedChangesColor:
+      - "#c49080"
+    defaultFgColor:
+      - "#d8d0e4"

@@ -1,0 +1,23 @@
+# {{name}} ({{variant}})
+# Add to your .gitconfig: [include] path = /path/to/{{slug}}.gitconfig
+
+[delta "{{slug}}"]
+    dark = true
+    syntax-theme = none
+    file-style = "{{foregrounds.text}}" bold
+    file-decoration-style = "{{backgrounds.surface1}}" ul
+    hunk-header-style = "{{foregrounds.overlay}}"
+    hunk-header-decoration-style = "{{backgrounds.surface1}}" ul
+    minus-style = syntax "{{backgrounds.surface0}}"
+    minus-emph-style = syntax bold "{{backgrounds.surface1}}"
+    plus-style = syntax "{{backgrounds.surface0}}"
+    plus-emph-style = syntax bold "{{backgrounds.surface1}}"
+    minus-non-emph-style = syntax "{{backgrounds.base}}"
+    plus-non-emph-style = syntax "{{backgrounds.base}}"
+    line-numbers = true
+    line-numbers-minus-style = "{{accents.error}}"
+    line-numbers-plus-style = "{{accents.string}}"
+    line-numbers-zero-style = "{{foregrounds.overlay}}"
+    line-numbers-left-style = "{{backgrounds.surface1}}"
+    line-numbers-right-style = "{{backgrounds.surface1}}"
+    blame-palette = "{{backgrounds.base}} {{backgrounds.surface0}} {{backgrounds.dim}} {{backgrounds.surface1}}"

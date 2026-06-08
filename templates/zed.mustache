@@ -1,0 +1,214 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "{{name}}",
+  "author": "Daniel Fry",
+  "themes": [
+    {
+      "name": "{{name}}",
+      "appearance": "dark",
+      "style": {
+        "background": "{{backgrounds.base}}",
+        "border": "{{backgrounds.surface1}}",
+        "border.variant": "{{backgrounds.surface2}}",
+        "border.focused": "{{accents.keyword}}80",
+        "border.selected": "{{accents.keyword}}",
+        "border.transparent": "#00000000",
+        "border.disabled": "{{backgrounds.surface1}}",
+
+        "elevated_surface.background": "{{backgrounds.surface0}}",
+        "surface.background": "{{backgrounds.dim}}",
+
+        "element.background": "{{backgrounds.surface0}}",
+        "element.hover": "{{backgrounds.surface0}}",
+        "element.active": "{{backgrounds.surface1}}",
+        "element.selected": "{{backgrounds.surface1}}",
+        "element.disabled": "{{backgrounds.surface0}}80",
+
+        "drop_target.background": "{{backgrounds.surface1}}80",
+
+        "ghost_element.background": "#00000000",
+        "ghost_element.hover": "{{backgrounds.surface0}}",
+        "ghost_element.active": "{{backgrounds.surface1}}",
+        "ghost_element.selected": "{{backgrounds.surface1}}",
+        "ghost_element.disabled": "{{backgrounds.surface0}}80",
+
+        "text": "{{foregrounds.text}}",
+        "text.muted": "{{foregrounds.subtext}}",
+        "text.placeholder": "{{foregrounds.overlay}}",
+        "text.disabled": "{{foregrounds.overlay}}80",
+        "text.accent": "{{accents.keyword}}",
+
+        "icon": "{{foregrounds.subtext}}",
+        "icon.muted": "{{foregrounds.overlay}}",
+        "icon.disabled": "{{foregrounds.overlay}}80",
+        "icon.placeholder": "{{foregrounds.overlay}}",
+        "icon.accent": "{{accents.keyword}}",
+
+        "status_bar.background": "{{backgrounds.dim}}",
+        "title_bar.background": "{{backgrounds.shadow}}",
+        "title_bar.inactive_background": "{{backgrounds.shadow}}",
+        "toolbar.background": "{{backgrounds.base}}",
+
+        "tab_bar.background": "{{backgrounds.shadow}}",
+        "tab.active_background": "{{backgrounds.base}}",
+        "tab.inactive_background": "{{backgrounds.shadow}}",
+
+        "search.match_background": "{{accents.number}}40",
+
+        "panel.background": "{{backgrounds.base}}",
+        "panel.focused_border": "{{accents.keyword}}",
+
+        "pane.focused_border": "{{accents.keyword}}",
+
+        "scrollbar.thumb.background": "{{backgrounds.surface2}}80",
+        "scrollbar.thumb.hover_background": "{{backgrounds.surface2}}b0",
+        "scrollbar.thumb.border": "#00000000",
+        "scrollbar.track.background": "#00000000",
+        "scrollbar.track.border": "#00000000",
+
+        "editor.background": "{{backgrounds.base}}",
+        "editor.foreground": "{{foregrounds.text}}",
+        "editor.gutter.background": "{{backgrounds.base}}",
+        "editor.active_line.background": "{{backgrounds.surface0}}",
+        "editor.highlighted_line.background": "{{backgrounds.surface0}}",
+        "editor.line_number": "{{foregrounds.overlay}}",
+        "editor.active_line_number": "{{accents.keyword}}",
+        "editor.indent_guide": "{{backgrounds.surface1}}",
+        "editor.indent_guide_active": "{{backgrounds.surface2}}",
+        "editor.wrap_guide": "{{backgrounds.surface1}}",
+        "editor.invisible": "{{backgrounds.surface1}}",
+        "editor.subheader.background": "{{backgrounds.dim}}",
+
+        "link_text.hover": "{{accents.func}}",
+
+        "conflict": "{{accents.operator}}",
+        "conflict.background": "{{accents.operator}}20",
+        "conflict.border": "{{accents.operator}}",
+
+        "created": "{{accents.string}}",
+        "created.background": "{{accents.string}}20",
+        "created.border": "{{accents.string}}",
+
+        "deleted": "{{accents.error}}",
+        "deleted.background": "{{accents.error}}20",
+        "deleted.border": "{{accents.error}}",
+
+        "error": "{{accents.error}}",
+        "error.background": "{{accents.error}}20",
+        "error.border": "{{accents.error}}",
+
+        "hidden": "{{foregrounds.overlay}}",
+        "hidden.background": "{{backgrounds.dim}}",
+        "hidden.border": "{{backgrounds.surface1}}",
+
+        "hint": "{{accents.tag}}",
+        "hint.background": "{{accents.tag}}20",
+        "hint.border": "{{accents.tag}}",
+
+        "ignored": "{{foregrounds.overlay}}",
+        "ignored.background": "{{backgrounds.dim}}",
+        "ignored.border": "{{backgrounds.surface1}}",
+
+        "info": "{{accents.func}}",
+        "info.background": "{{accents.func}}20",
+        "info.border": "{{accents.func}}",
+
+        "modified": "{{accents.func}}",
+        "modified.background": "{{accents.func}}20",
+        "modified.border": "{{accents.func}}",
+
+        "predictive": "{{foregrounds.overlay}}",
+        "predictive.background": "{{backgrounds.surface0}}",
+        "predictive.border": "{{backgrounds.surface1}}",
+
+        "renamed": "{{accents.func}}",
+        "renamed.background": "{{accents.func}}20",
+        "renamed.border": "{{accents.func}}",
+
+        "success": "{{accents.string}}",
+        "success.background": "{{accents.string}}20",
+        "success.border": "{{accents.string}}",
+
+        "unreachable": "{{foregrounds.overlay}}",
+        "unreachable.background": "{{backgrounds.dim}}",
+        "unreachable.border": "{{backgrounds.surface1}}",
+
+        "warning": "{{accents.number}}",
+        "warning.background": "{{accents.number}}20",
+        "warning.border": "{{accents.number}}",
+
+        "terminal.background": "{{backgrounds.base}}",
+        "terminal.foreground": "{{foregrounds.text}}",
+        "terminal.bright_foreground": "{{foregrounds.text}}",
+        "terminal.dim_foreground": "{{foregrounds.subtext}}",
+        "terminal.ansi.black": "{{ansi.black}}",
+        "terminal.ansi.red": "{{ansi.red}}",
+        "terminal.ansi.green": "{{ansi.green}}",
+        "terminal.ansi.yellow": "{{ansi.yellow}}",
+        "terminal.ansi.blue": "{{ansi.blue}}",
+        "terminal.ansi.magenta": "{{ansi.magenta}}",
+        "terminal.ansi.cyan": "{{ansi.cyan}}",
+        "terminal.ansi.white": "{{ansi.white}}",
+        "terminal.ansi.bright_black": "{{ansi.brightBlack}}",
+        "terminal.ansi.bright_red": "{{ansi.brightRed}}",
+        "terminal.ansi.bright_green": "{{ansi.brightGreen}}",
+        "terminal.ansi.bright_yellow": "{{ansi.brightYellow}}",
+        "terminal.ansi.bright_blue": "{{ansi.brightBlue}}",
+        "terminal.ansi.bright_magenta": "{{ansi.brightMagenta}}",
+        "terminal.ansi.bright_cyan": "{{ansi.brightCyan}}",
+        "terminal.ansi.bright_white": "{{ansi.brightWhite}}",
+
+        "players": [
+          { "cursor": "{{special.cursor}}", "background": "{{special.cursor}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.func}}", "background": "{{accents.func}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.string}}", "background": "{{accents.string}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.type}}", "background": "{{accents.type}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.keyword}}", "background": "{{accents.keyword}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.tag}}", "background": "{{accents.tag}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.number}}", "background": "{{accents.number}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.error}}", "background": "{{accents.error}}20", "selection": "{{special.selection}}" }
+        ],
+
+        "syntax": {
+          "attribute": { "color": "{{accents.func}}", "font_style": "italic" },
+          "boolean": { "color": "{{accents.type}}" },
+          "comment": { "color": "{{foregrounds.comment}}", "font_style": "italic" },
+          "comment.doc": { "color": "{{foregrounds.comment}}", "font_style": "italic" },
+          "constant": { "color": "{{accents.type}}" },
+          "constructor": { "color": "{{accents.type}}" },
+          "emphasis": { "color": "{{accents.operator}}", "font_style": "italic" },
+          "emphasis.strong": { "color": "{{accents.type}}", "font_weight": 700 },
+          "enum": { "color": "{{accents.type}}" },
+          "function": { "color": "{{accents.func}}" },
+          "keyword": { "color": "{{accents.keyword}}", "font_style": "italic" },
+          "label": { "color": "{{accents.operator}}" },
+          "link_text": { "color": "{{accents.func}}" },
+          "link_uri": { "color": "{{accents.func}}" },
+          "namespace": { "color": "{{foregrounds.text}}" },
+          "number": { "color": "{{accents.number}}" },
+          "operator": { "color": "{{accents.operator}}" },
+          "preproc": { "color": "{{accents.tag}}" },
+          "primary": { "color": "{{foregrounds.text}}" },
+          "property": { "color": "{{foregrounds.text}}" },
+          "punctuation": { "color": "{{foregrounds.overlay}}" },
+          "punctuation.bracket": { "color": "{{foregrounds.overlay}}" },
+          "punctuation.delimiter": { "color": "{{foregrounds.overlay}}" },
+          "punctuation.list_marker": { "color": "{{accents.operator}}" },
+          "punctuation.special": { "color": "{{accents.tag}}" },
+          "string": { "color": "{{accents.string}}" },
+          "string.escape": { "color": "{{accents.tag}}" },
+          "string.regex": { "color": "{{accents.tag}}" },
+          "string.special": { "color": "{{accents.tag}}" },
+          "string.special.symbol": { "color": "{{accents.type}}" },
+          "tag": { "color": "{{accents.tag}}" },
+          "text.literal": { "color": "{{accents.string}}" },
+          "title": { "color": "{{accents.keyword}}", "font_weight": 700 },
+          "type": { "color": "{{accents.type}}" },
+          "variable": { "color": "{{foregrounds.text}}" },
+          "variable.special": { "color": "{{foregrounds.text}}", "font_style": "italic" },
+          "variant": { "color": "{{accents.type}}" }
+        }
+      }
+    }
+  ]
+}

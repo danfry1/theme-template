@@ -1,0 +1,56 @@
+# Example (dark)
+[colors.primary]
+foreground = "#d8d0e4"
+background = "#12101e"
+
+[colors.cursor]
+text = "#12101e"
+cursor = "#d0a0b8"
+
+[colors.vi_mode_cursor]
+text = "#12101e"
+cursor = "#b8a0e0"
+
+[colors.selection]
+text = "CellForeground"
+background = "#262236"
+
+[colors.search.matches]
+foreground = "#12101e"
+background = "#c4b080"
+
+[colors.search.focused_match]
+foreground = "#12101e"
+background = "#e8b4a0"
+
+[colors.hints.start]
+foreground = "#12101e"
+background = "#c4b080"
+
+[colors.hints.end]
+foreground = "#12101e"
+background = "#8cc0e0"
+
+[colors.footer_bar]
+foreground = "#d8d0e4"
+background = "#0e0c18"
+
+[colors.normal]
+black = "#56526c"
+red = "#c49080"
+green = "#a0d4a8"
+yellow = "#c4b080"
+blue = "#8cc0e0"
+magenta = "#b8a0e0"
+cyan = "#88c0b8"
+white = "#b0a8c4"
+
+[colors.bright]
+black = "#68647e"
+red = "#d0a0b8"
+green = "#a8d4b8"
+yellow = "#e8b4a0"
+blue = "#a0c8e0"
+magenta = "#c4b0e0"
+cyan = "#a0d4cc"
+white = "#d8d0e4"
