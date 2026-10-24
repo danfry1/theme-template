@@ -9,6 +9,11 @@ updates:
       time: "06:00"
       timezone: Europe/London
     open-pull-requests-limit: 5
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions:
+        patterns: ["*"]
 
   - package-ecosystem: bun
     directory: /
@@ -18,3 +23,12 @@ updates:
       time: "06:00"
       timezone: Europe/London
     open-pull-requests-limit: 5
+    cooldown:
+      default-days: 7
+    groups:
+      dev-dependencies:
+        dependency-type: development
+        update-types: [minor, patch]
+      production-dependencies:
+        dependency-type: production
+        update-types: [minor, patch]
